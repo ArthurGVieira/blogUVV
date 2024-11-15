@@ -1,0 +1,288 @@
+/* Estilos gerais já existentes */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+/* Estilos específicos para a página de contatos */
+.contact-info {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-row {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.contact-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.contact-item p {
+  margin: 10px 0 0;
+}
+
+.contact-item a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos específicos para a página Home */
+.intro {
+  margin-bottom: 20px;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.highlighted-content {
+  margin-top: 20px;
+}
+
+.highlighted-content h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.content-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 300px;
+}
+
+.content-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.content-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.content-card .btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.content-card .btn:hover {
+  background-color: #45a049;
+}
+
+.content-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.book_icon {
+  width: 100%;
+}
+
+/* Estilos para a página "Por que a leitura é importante" */
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.text-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.text-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.image-section {
+  flex: 1;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para a página "Melhores Livros" */
+.books-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.book-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.book-image {
+  flex: 1;
+}
+
+.book-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.book-info {
+  flex: 2;
+}
+
+.book-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.book-info p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.book-image {
+  width: 20%;
+}
+
+/* Estilos para a página "Melhores Sites para Comprar Livros" */
+.sites-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.site-item {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-item h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.site-item p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.site-item a {
+  font-size: 1rem;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.site-item a:hover {
+  text-decoration: underline;
+}
+
+/* Adiciona um estilo no link ativo para dar destaque */
+nav a {
+  color: white;  /* Cor padrão do link */
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;  /* Efeito hover */
+}
+
+nav a.active {
+  color: #00027b;  /* Cor para o link ativo */
+  font-weight: bold;
+}
